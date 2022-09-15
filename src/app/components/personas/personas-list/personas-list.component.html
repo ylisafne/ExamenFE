@@ -1,0 +1,25 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>DNI</th>
+            <th>F. Nacimiento</th>
+            <th>Direccion</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let per of serv.listPersona">
+            <td>{{per.nombre}}</td>
+            <td>{{per.apellido}}</td>
+            <td>{{per.dni}}</td>
+            <td>{{per.fecNacimiento| date:'dd/MM/yyyy'}}</td>
+            <td>{{per.direccion}}</td>
+            <td><i class="fa-solid fa-pen-to-square text-info" style="cursor: pointer;" (click)="editar(per)"></i></td>
+            <td><i class="fa-solid fa-trash-can text-danger" style="cursor: pointer;" (click)="eliminar(per.id!)"></i></td>
+        </tr>
+    </tbody>
+
+</table>

@@ -1,0 +1,45 @@
+<form [formGroup]="form" (ngSubmit)="Guardar()">
+    <label class="form-label">Nombre</label>
+    <div class="input-group mb-3">
+    <span class="input-group-text"><i class="fa-solid fa-user"
+        [class.green-icon]="this.form.get('nombre')?.valid"
+        [class.red-icon]="this.form.get('nombre')?.invalid && this.form.get('nombre')?.touched"></i></span>
+    <input formControlName="nombre" type="text" class="form-control" placeholder="nombre" maxlength="50">
+    </div>
+    <label class="form-label">Apellido</label>
+    <div class="input-group mb-3">
+    <span class="input-group-text"><i class="fa-solid fa-user"
+        [class.green-icon]="this.form.get('apellido')?.valid"
+        [class.red-icon]="this.form.get('apellido')?.invalid && this.form.get('apellido')?.touched"></i></span>
+    <input formControlName="apellido" type="text" class="form-control" placeholder="apellido" maxlength="50">
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label class="form-label">DNI</label>
+            <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-regular fa-id-card"
+                [class.green-icon]="this.form.get('dni')?.valid"
+                [class.red-icon]="this.form.get('dni')?.invalid && this.form.get('dni')?.touched"></i></span>
+            <input formControlName="dni" type="text" class="form-control" placeholder="dni" maxlength="8">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Fecha Nacimiento</label>
+            <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-regular fa-calendar-days"
+                [class.green-icon]="this.form.get('fecNacimiento')?.valid"
+                [class.red-icon]="this.form.get('fecNacimiento')?.invalid && this.form.get('fecNacimiento')?.touched"></i></span>
+            <input formControlName="fecNacimiento" type="date" class="form-control" placeholder="yyyy-mm-dd" maxlength="10">
+            </div>
+        </div>
+    </div>
+    <label class="form-label">Dirección</label>
+    <div class="input-group mb-3">
+    <span class="input-group-text"><i class="fa-solid fa-house"></i></span>
+    <input formControlName="direccion" type="text" class="form-control" placeholder="direción" maxlength="100">
+    </div>
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-success btn-lg" [disabled]="this.form.invalid" style="cursor: pointer;">
+            <i class="fa-solid fa-floppy-disk"></i>&nbsp; Guardar</button>
+    </div>
+</form>
