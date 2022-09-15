@@ -21,9 +21,9 @@
 
 ## Solucion
 * Requisitos para ejecutar angular
-  -- Node.JS
-  -- Angular CLI
-  -- Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
+  ** Node.JS
+  ** Angular CLI
+  ** Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
 * Descargar el repositorio [ExamenFE](https://github.com/ylisafne/ExamenFE) desde desde [GitHub](https://github.com/ylisafne/ExamenFE)
 * Abre una ventana de cmd y cambia el directorio a la carpeta del Proyecto ExamenFE con el comando cd
 ```
