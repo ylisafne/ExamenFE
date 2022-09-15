@@ -6,14 +6,14 @@
 
 ## Solucion
 * Creamos la Base de datos con el nombre "Examen"
-* Ejecutar el Script del archivo <a href="http://example.com/" target="_blank">example</a> [Script.sql](./SqlScript.sql){target="_blank"}
+* Ejecutar el Script del archivo [Script.sql](https://github.com/ylisafne/EXamenAPI/blob/master/SqlScript.sql)
 
 ## Requerimiento
 2. Crear un Api en .Net (C#) de tipo GET (Listar) y POST (Registrar) consumiendo la tabla Persona creada anteriormente.
 
 ## Solucion
 * Descargar el repositorio [EXamenAPI](https://github.com/ylisafne/EXamenAPI) desde [GitHub](https://github.com/ylisafne/EXamenAPI)
-* Si es necesario editar la cadena de conecion del archivo  [AppContext](./EXamenAPI/Models/APPContext.cs) ubicado en "EXamenAPI/Models/APPContext.cs"
+* Si es necesario editar la cadena de conecion del archivo  [AppContext](https://github.com/ylisafne/EXamenAPI/blob/master/EXamenAPI/Models/APPContext.cs) ubicado en "EXamenAPI/Models/APPContext.cs"
 * Ejecuta el servicio API desde Visual Studio (.net core 6)
 
 ## Requerimiento:
