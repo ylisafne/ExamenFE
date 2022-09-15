@@ -20,10 +20,11 @@
 3. Consumir el Api creado en un nuevo proyecto en Web, puede usar bootstrap o alguna hoja de estilo personal. Mostrar mensaje indicando que se registro correctamente y luego listar.
 
 ## Solucion
+Markup
 * Requisitos para ejecutar angular
-  ** Node.JS
-  ** Angular CLI
-  ** Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
+  * Node.JS
+  * Angular CLI
+  * Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
 * Descargar el repositorio [ExamenFE](https://github.com/ylisafne/ExamenFE) desde desde [GitHub](https://github.com/ylisafne/ExamenFE)
 * Abre una ventana de cmd y cambia el directorio a la carpeta del Proyecto ExamenFE con el comando cd
 ```
