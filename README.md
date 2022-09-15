@@ -6,7 +6,7 @@
 
 ## Solucion
 * Creamos la Base de datos con el nombre "Examen"
-* Ejecutar el Script del archivo [Script.sql](./SqlScript.sql){:target="_blank"}
+* Ejecutar el Script del archivo [Script.sql](./SqlScript.sql){target="_blank"}
 
 ## Requerimiento
 2. Crear un Api en .Net (C#) de tipo GET (Listar) y POST (Registrar) consumiendo la tabla Persona creada anteriormente.
